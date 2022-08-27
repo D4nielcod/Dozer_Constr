@@ -231,15 +231,6 @@ section:after {
   display: table;
 }
 
-section h3 a {
-  color: #0b045c;
-  text-decoration: underline;
-  transition: all 0.2s;
-}
-section h3 a:hover {
-  color: #ff0000;
-}
-
 .section-img {
   height: 100%;
   width: 40%;
@@ -262,6 +253,15 @@ section h3 a:hover {
   letter-spacing: 1.5px;
   margin-bottom: 15px;
   text-transform: uppercase;
+}
+
+section h3 a {
+  color: #0b045c;
+  text-decoration: underline;
+  transition: all 0.2s;
+}
+section h3 a:hover {
+  color: #ff0000;
 }
 
 .section-box p:first-of-type {
@@ -406,8 +406,17 @@ section h3 a:hover {
   }
 
   .section-box {
-    padding: 50px 30px;
+    padding: 35px;
     width: 100%;
+  }
+
+  .section-box p {
+    color: #a9a9a9;
+    font-size: 90%;
+  }
+
+  .section-box p:last-of-type {
+    display: none;
   }
 
   .sect1-box {
