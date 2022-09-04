@@ -71,7 +71,6 @@ a {
 }
 
 .navbar ul li a.navbar-home {
-  font-size: 90%;
   font-weight: 600;
 }
 .navbar ul li a.navbar-home:hover,
@@ -82,7 +81,6 @@ a {
 .navbar ul li a.navbar-contact {
   background-color: #070335;
   border: 1px solid #070335;
-  border-radius: 5px;
   color: #fff;
   cursor: pointer;
   margin-left: 40px;
